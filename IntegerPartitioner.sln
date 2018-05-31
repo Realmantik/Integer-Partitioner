@@ -5,10 +5,6 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integer Partitioner", "WindowsFormsApp1\Integer Partitioner.csproj", "{2344E642-88D2-45E7-A1AC-30711271787A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pif3", "Pif3\Pif3.csproj", "{A32B5D89-2A08-4E57-AD57-DC57E4554612}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpectedValues", "ExpectedValues\ExpectedValues.csproj", "{4BF9482A-A1B3-4EA5-A155-28B654100B79}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,16 +15,11 @@ Global
 		{2344E642-88D2-45E7-A1AC-30711271787A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2344E642-88D2-45E7-A1AC-30711271787A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2344E642-88D2-45E7-A1AC-30711271787A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A32B5D89-2A08-4E57-AD57-DC57E4554612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A32B5D89-2A08-4E57-AD57-DC57E4554612}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A32B5D89-2A08-4E57-AD57-DC57E4554612}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A32B5D89-2A08-4E57-AD57-DC57E4554612}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4BF9482A-A1B3-4EA5-A155-28B654100B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4BF9482A-A1B3-4EA5-A155-28B654100B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4BF9482A-A1B3-4EA5-A155-28B654100B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4BF9482A-A1B3-4EA5-A155-28B654100B79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CB648D3-BA95-4946-9248-E62134BCCF21}
 	EndGlobalSection
 EndGlobal
