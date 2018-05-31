@@ -35,14 +35,19 @@
             this.getFractionsCountMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.getFractionsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.getAndSaveToJSONFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuCommands.SuspendLayout();
             this.SuspendLayout();
             // 
             // outputBox
             // 
+            this.outputBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.outputBox.Location = new System.Drawing.Point(12, 59);
             this.outputBox.Multiline = true;
             this.outputBox.Name = "outputBox";
+            this.outputBox.ReadOnly = true;
             this.outputBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.outputBox.Size = new System.Drawing.Size(774, 522);
             this.outputBox.TabIndex = 1;
@@ -52,9 +57,9 @@
             this.inputBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.inputBox.Location = new System.Drawing.Point(12, 27);
             this.inputBox.Name = "inputBox";
-            this.inputBox.Size = new System.Drawing.Size(142, 26);
+            this.inputBox.Size = new System.Drawing.Size(100, 26);
             this.inputBox.TabIndex = 2;
-            this.inputBox.Text = "7";
+            this.inputBox.Text = "27";
             // 
             // menuCommands
             // 
@@ -97,11 +102,22 @@
             this.getAndSaveToJSONFile.Text = "Get Fractions And Save to JSON File";
             this.getAndSaveToJSONFile.Click += new System.EventHandler(this.getAndSaveToJSONFile_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(118, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(91, 20);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Max: 10000";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(798, 593);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.inputBox);
             this.Controls.Add(this.outputBox);
             this.Controls.Add(this.menuCommands);
@@ -124,6 +140,7 @@
         private System.Windows.Forms.ToolStripMenuItem getFractionsCountMenu;
         private System.Windows.Forms.ToolStripMenuItem getFractionsMenu;
         private System.Windows.Forms.ToolStripMenuItem getAndSaveToJSONFile;
+        private System.Windows.Forms.Label label1;
     }
 }
 
