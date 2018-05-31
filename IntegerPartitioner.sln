@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integer Partitioner", "WindowsFormsApp1\Integer Partitioner.csproj", "{2344E642-88D2-45E7-A1AC-30711271787A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integer Partitioner", "IntegerPartitioner\Integer Partitioner.csproj", "{2344E642-88D2-45E7-A1AC-30711271787A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
